@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(78, 178, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes-box {
+  border: 8px solid bisque;
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.quotes {
+  font-size: 1.5rem;
+  text-align: center;
+  color: gray;
+}
+
+.author {
+  font-weight: bold;
+}
